@@ -1,0 +1,114 @@
+body{
+    margin: 0px;
+}
+
+.flex-container{
+    display:flex;
+    margin: 0px;
+}
+#teacher{
+    flex: 1.5;
+    background-color: #C27B68;
+    height: 100vh;
+    margin: 0px;
+}
+    #areo{
+        margin:0px;
+        left: 150px;
+        top: 0px;
+        width: 50px;
+        position:absolute;
+        z-index:1;
+    }
+    #tagline{
+        margin-left: 7%;
+        margin-top: 0px;
+        position: absolute;
+        z-index: 4;
+        font-size: 25px;
+        
+    }
+    #mode-container{
+        margin-top: 30vh;
+        height: 80%
+    }
+    .mode{
+    margin: auto;
+	box-sizing: border-box;
+	background:#C27B68;
+	color: white;
+	border: 0px;
+	border-radius: 5px;
+	padding: 15px;
+    margin-top: 4vh;
+    margin-bottom: 4vh;
+    height: 60px;
+    width: 60%;
+	display: block;
+    }
+    #name{
+        text-align: center;
+        z-index: 2;
+        position: absolute;
+        top: 45%;
+        left: 40%;
+        margin-bottom: 0px;
+        padding-bottom: 0px;
+        transform: translate(-50%, -50%);
+        font-size: 100px;
+        font-family: 'Palette Mosaic', cursive;
+    }
+
+#student{
+    flex: 1;
+    background-color: #f5f5ef;
+    height: 100vh;
+    margin: 0px;
+}
+    
+#p1{
+    margin-left: 20%;
+}
+#p2{
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-top:0px;
+    padding-top:0px;
+}
+iframe{
+    margin-right: 20vh;
+    margin-left: 20vh;
+}
+
+#smallareo{
+    margin-left: 100px;
+    margin-top: 10vh;
+    margin-bottom: 0px;
+    width:150px;
+    height:150px;
+}
+
+.ask{
+    text-align: left;
+    margin-left: 20%;
+    margin-right: 40%;
+    margin-top:0px;
+    padding-top:0px;
+}
+
+.answer{
+    width: 40%;
+    text-align: right;
+    margin-left: 40%;
+    margin-right: 20%;
+    margin-top:0px;
+    padding-top:0px;
+}
+#teacher1{
+    width: 400px;
+    background-color: #C27B68;
+}
+#student1{
+    width: 400px;
+    background-color: #C27B68;
+}

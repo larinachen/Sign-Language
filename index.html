@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <script src="script.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="sprite.css">
+    <link href="https://fonts.googleapis.com/css2?family=Palette+Mosaic&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div class='flex-container'>
+
+    <div id="teacher">
+        <img id ='Areo'src="areo.png" alt="Areo">
+        <h1 id='name'>AreoASL</h1>
+        <p id='tagline'>Accelerate yor ASL skills with personalized, real-time AI feeback</p>
+    </div>
+
+    <div id="student">
+        <div id="mode-container">
+            <p id='p1'> choose a mode to begin</p>
+        <button class="mode" onclick="learning()">Learning Mode</button>
+        <button class="mode" onclick="converse()">Conversation Mode</button>
+        <button class="mode" onclick="playground()">Playground Mode</button>
+        </div>
+    </div>
+
+    </div>  
+
+    
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8  offset-lg-2">
+                    <h3 class="mt-5">Live Streaming</h3>
+                    <img src='http://127.0.0.1:5000/video_feed' width="50%">
+                </div>
+            </div>
+        </div>
+    
+
+</body>
+</html>
+
+<script>
+    function learning(){
+        window.location.href = 'http://127.0.0.1:5500/learning.html';
+    }
+    function converse(){
+        window.location.href = 'http://127.0.0.1:5500/converse.html';
+    }
+    function playground(){
+        window.location.href = 'http://127.0.0.1:5500/playground.html';
+    }
+</script>
