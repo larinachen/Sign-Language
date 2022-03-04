@@ -2,8 +2,7 @@
 <html>
 <head>
     <script src="script.js"></script>
-    <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="sprite.css">
+    <link rel="stylesheet" href="frontend/style.css">
     <link href="https://fonts.googleapis.com/css2?family=Palette+Mosaic&display=swap" rel="stylesheet">
 </head>
 
@@ -11,7 +10,7 @@
     <div class='flex-container'>
 
     <div id="teacher">
-        <img id ='Areo'src="areo.png" alt="Areo">
+        <img id ='Areo'src="resources/areo.png" alt="Areo">
         <h1 id='name'>AreoASL</h1>
         <p id='tagline'>Accelerate yor ASL skills with personalized, real-time AI feeback</p>
     </div>
@@ -42,13 +41,20 @@
 </html>
 
 <script>
+    
     function learning(){
-        window.location.href = 'http://127.0.0.1:5500/learning.html';
+        window.location.href = 'frontend/learning.html';
     }
     function converse(){
-        window.location.href = 'http://127.0.0.1:5500/converse.html';
+        window.location.href = 'frontend/converse.html';
     }
     function playground(){
-        window.location.href = 'http://127.0.0.1:5500/playground.html';
+        window.location.href = 'frontend/playground.html';
     }
+    function login(){
+        let username = prompt("input your name or continue as guest by leaving it blank")
+    }
+
+    setTimeout(login, 1500)
+
 </script>
